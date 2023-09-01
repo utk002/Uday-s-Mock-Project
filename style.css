@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFDD;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  background: #016A70;
+  color: white !important;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+form {
+  display: block;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 20px;
+}
+
+input[type="radio"]:hover {
+  box-shadow: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3498DB
+}
+
+#quiz-questions {
+  text-align: center;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+.option {
+  text-align: left;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: blueviolet;
+  margin-bottom: 5px;
+  padding: 10px;
+  color: black;
+  border-radius: 8px;
+  justify-content: start;
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.correct {
+  background-color: #e0ffd2;
+  font-style: bold;
+
+}
+
+#error-block>p {
+  background-color: #fa6169;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.incorrect {
+  background-color: #f76d6f;
+  font-style: bold;
+}
+
+.normal {
+  background-color: white;
+  font-style: unset;
+}
+
+#final_display {
+  color: #2f2be2;
+  margin-bottom: 15px;
+
+}
+
+#score_display {
+  text-align: right;
+
+}
+
+#safeTimerDisplay {
+  font-size: 15px;
+  text-align: right;
+}
+
+h2 {
+  color: rgb(16, 16, 16);
+  font-size: 25px;
+}
+
+h3 {
+  color: rgb(27, 198, 113);
+  font-size: 20px;
+}
+
+#registration-form input {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  width: 80%;
+  transition: all 0.5s ease-out;
+}
+
+#registration-form input:hover {
+  box-shadow: 0px 0px 10px 2px #ccc;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 40vw;
+  margin-bottom: 0.5rem
+}
+
+.input_container span,
+#categorys,
+#questions,
+#difficulty {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.select_options {
+  display: row;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-wrap: break-word;
+  margin: 0 0 1rem 0;
+  width: fit-content;
+}
+
+
+.submit_btn,
+button {
+  padding: 1rem 2rem;
+  background: #016A70;
+  color: #A2C579;
+  transition: all 0.5s ease-out;
+  float: right;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.submit_btn:hover,
+button:hover {
+  box-shadow: 0px 0px 5px 1px white;
+  color: white;
+  background: #FFFFDD;
+
+}
